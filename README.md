@@ -20,3 +20,8 @@ For a comparison of brainfuck to C, see this list below:
 The compiler uses Python to loop through a brainfuck file, then it translates to C. Other options within the compiler (or, rather, shall I be calling it: the translator) can use GCC to compile it.
 
 This is nothing really special or grandiose, but it can be useful for testing and experimental purposes, if you do not want to use a JavaScript version of brainfuck. However, this program was only made as an experiment, and thus will not be updated. 
+
+
+To install, simply look inside the install.sh file first to ensure safety and run it. It will be installed to /usr/bin, where you can easily access it.
+
+To use, you simply run the bfcom, with the filename of the .bf file, and with the arguments that come with it. For example, you can run ` ~ bfcom file.bf --compile file.o ` to compile a .bf file to an .o file using gcc.
