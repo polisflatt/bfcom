@@ -20,7 +20,7 @@ For a comparison of brainfuck to C, see this list below:
 "> : `i++;`"\
 "< : `i--;`"\
 "+ : `(*i)++;`"\
-"-: `(*i)--;`"\
+"-: `(*i)--;`"
 
 
 The compiler uses Python to loop through a brainfuck file, then it translates to C. Other options within the compiler (or, rather, shall I be calling it: the translator) can use GCC to compile it.
