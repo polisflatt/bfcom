@@ -24,4 +24,6 @@ This is nothing really special or grandiose, but it can be useful for testing an
 
 To install, simply look inside the install.sh file first to ensure safety and run it. It will be installed to /usr/bin, where you can easily access it.
 
+Or, if you prefer a package manager... `pip install bfcom`
+
 To use, you simply run the bfcom, with the filename of the .bf file, and with the arguments that come with it. For example, you can run ` ~ bfcom file.bf --compile file.o ` to compile a .bf file to an .o file using gcc.
